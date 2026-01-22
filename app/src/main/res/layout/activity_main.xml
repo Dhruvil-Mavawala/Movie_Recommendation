@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Movie Recommendation System"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+
+    <Spinner
+        android:id="@+id/spinnerGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRecommend"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Recommend Movies"/>
+</LinearLayout>
